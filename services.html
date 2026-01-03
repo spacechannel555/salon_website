@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>Services &mdash; Natural Look Aveda</title>
+		<link rel="icon" type="image/jpeg" href="assets/logo_favicon.jpg">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+		<style type = "text/css">
+		.pt-sans-narrow-regular {
+  			font-family: "PT Sans Narrow", sans-serif;
+  			font-weight: 400;
+  			font-style: normal;
+		}
+
+		.pt-sans-narrow-bold {
+  			font-family: "PT Sans Narrow", sans-serif;
+  			font-weight: 700;
+  			font-style: normal;
+		}
+
+		body {
+            margin: 0;
+            background: hsl(129, 14%, 50%);
+			text-align: center;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 150px;
+        }
+
+		footer {
+            padding: 50px;
+			text-align: center;
+        }
+
+		footer address {
+			font-size: 20px;
+			color:hsl(7 26.9% 11.7%);
+		}
+		
+		footer p {
+			font-size: 20px;
+			color:hsl(7 26.9% 11.7%);
+		}
+
+        footer p a:link {
+            text-decoration: none;
+            color:hsl(7 26.9% 11.7%);
+        }
+
+		h2{
+			font-size: 60px;
+			color:hsl(7 26.9% 11.7%);
+		}
+
+		div p{
+			font-size: 45px;
+			color:hsl(7 26.9% 11.7%);		
+		}
+
+		div ul li{
+			font-size: 45px;
+			color:hsl(7 26.9% 11.7%);
+		}
+
+        .logo {
+            height: 275px;
+            display: block;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            position: relative;
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            display: block;
+            color: white;
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-decoration: none;
+            padding: 10px 0;
+			text-align: left;
+        }
+
+        nav ul li a:hover {
+            border-bottom: 3px solid white;
+        }
+
+        /* Dropdown menu under SERVICES */
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: hsl(124, 20%, 50%);
+            min-width: 220px;
+            padding: 8px 0;
+            border-radius: 4px;
+        }
+
+        .dropdown-menu li {
+            margin: 0;
+        }
+
+        .dropdown-menu li a {
+            padding: 8px 15px;
+            border-bottom: none;
+            white-space: nowrap;
+        }
+
+        .dropdown-menu li a:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-bottom: none;
+        }
+
+        /* Show menu on hover */
+        li.dropdown:hover .dropdown-menu {
+            display: block;
+        }
+		</style>
+	</head>
+
+	<body>
+		<header>
+        <a href="index.html">
+            <img src="assets/logo.png" alt="Natural Look Aveda" title="Logo by Alex Cohen" class="logo">
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="our_work.html">OUR WORK</a></li>
+                <li class="dropdown">
+                    <a href="services.html">SERVICES</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="services.html#haircut-style">Haircut/Style</a></li>
+                        <li><a href="services.html#color">Color</a></li>
+                        <li><a href="services.html#magic-sleek">Magic Sleek Smoothing Treatment</a></li>
+                        <li><a href="services.html#hair-treatment">Treatments</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="booking_login.php">BOOK NOW</a></li>
+            </ul>
+        </nav>
+    </header>
+
+		<div>
+			<h2 id = "haircut-style" class="pt-sans-narrow-bold">Haircut/Style</h2>
+		</div>
+
+		<div>
+			<p class="pt-sans-narrow-regular">Wash, Cut, & Style <br> <i>$80-125</i></p>
+			<p class="pt-sans-narrow-regular">Barber Cuts <br> <i>$55-60</i></p>
+			<p class="pt-sans-narrow-regular">Children (up to 12 years) <br> <i>$50-65</i></p>
+			<p class="pt-sans-narrow-regular">Blowouts <br> <i>$55-65</i></p>
+			<p class="pt-sans-narrow-regular">Add-on Curling/Flat Iron <br> <i>$20-25</i></p>
+			<p class="pt-sans-narrow-regular">Formal/Up-Do/Bridal <br> <i>$125-170</i></p>
+		</div>
+
+		<div>
+			<h2 id = "color" class="pt-sans-narrow-bold">Color</h2>
+			<p class="pt-sans-narrow-regular">We use the exclusive Aveda color, derived from plant & flower, and blended with 6 certified organic oils</p>
+		</div>
+
+		<div>
+			<p class="pt-sans-narrow-regular">Touch Up <br> <i>$80-100</i></p>
+			<p class="pt-sans-narrow-regular">Full Head <br> <i>$95-150</i></p>
+		</div>
+
+		<div>
+		<p class="pt-sans-narrow-regular">Demi Plus <br> <i>$80-150</i></p>
+		<!--<div>
+			<ul>
+				<li class="pt-sans-narrow-regular">Aveda Demi Plus custom-deposit treatment color is 93% naturally derived with no ammonia</li>
+				<li class="pt-sans-narrow-regular">Used for toning, glossing, color refreshing, pre-coloration, & gray-blending (up to 75% gray coverage) from a sheer, translucent tone to an opaque, vibrant tone or gray blending</li>
+				<li class="pt-sans-narrow-regular">Improves the condition of damaged hair while adding radiant color & shine, with a conditioning blend of certified organic plant oils: kukui, sunflower, castor, & jojoba improve damaged hair & add radiant shine</li>
+				<ul>
+				<li class="pt-sans-narrow-regular">Green tea extract &ndash; natural color modifier which enhances the variety of color shades</li>
+				<li class="pt-sans-narrow-regular">Plant derived L-arginine &ndash; works as a power booster to increase pH for maximum color deposit</li>
+				<li class="pt-sans-narrow-regular">Butte elementary-glycol &ndash; derived from sugar cane to create a smooth gel base</li>
+				</ul>
+			</ul>
+		</div>-->
+		</div>
+
+		<div>
+			<p class="pt-sans-narrow-regular">Vegan Vibrant Color<br><i>$80-150</i></p>
+		</div>
+
+		<!--<div>
+			<ul>
+				<li class="pt-sans-narrow-regular">Semi-permanent treatment hair color</li>
+				<li class="pt-sans-narrow-regular">Palette of 11 intense treatment hair color</li>
+				<li class="pt-sans-narrow-regular">Mixed to create a spectrum of results</li>
+				<li class="pt-sans-narrow-regular">Has all certified organic oils as the Demi Plus</li>
+				<li class="pt-sans-narrow-regular">Go from sheer & translucent to opaque & vibrant</li>
+				<li class="pt-sans-narrow-regular">No developer needed & 95% naturally derived</li>
+				<li class="pt-sans-narrow-regular">Provided immediate shine & conditions with signature blend of protective plant oils</li>
+					<ul>
+					<li class="pt-sans-narrow-regular">Corn derived solvents: creates smooth consistency for easy application</li>
+					<li class="pt-sans-narrow-regular">Certified ylang ylang, petitgrain, & ginger provide bright, floral, and spicy aroma</li>
+					</ul>
+				<li class="pt-sans-narrow-regular">NO synthetic glycols, silicones, phthalates, parabens, mineral oil oxidative dyes, or ammonia</li>
+			</ul>
+			<p class="pt-sans-narrow-regular">$80-150</p>
+		</div>-->
+
+		<div>
+			<p class="pt-sans-narrow-regular">Highlight/Lowlight (includes Aveda Demi Plus toner/gloss, 93% Natural & Conditioning Shine)</p>
+			<p class="pt-sans-narrow-regular">Per Foil <br> <i>$20</i></p>
+			<p class="pt-sans-narrow-regular">Half Head <br> <i>$245</i></p>
+			<p class="pt-sans-narrow-regular">Full Head: Highlights & Balayage/Ombre (includes Demi Plus toner/gloss) <br> <i>$295-345</i></p>
+			<p class="pt-sans-narrow-regular">Double Process Re-touch <br> <i>$225-250</i></p>
+			<p class="pt-sans-narrow-regular">Double Process Full Head <br> <i>$250-350</i></p>
+		</div>
+
+		<div>
+			<h2 id = "magic-sleek" class="pt-sans-narrow-bold">Magic Sleek Smoothing Treatment</h2>
+			<p class="pt-sans-narrow-regular"><i>$375-425</i></p>
+		</div>
+		
+		<div>
+			<h2 id = "hair-treatment" class="pt-sans-narrow-bold">Hair Treatment</h2>
+		</div>
+
+		<div>
+			<p class="pt-sans-narrow-regular">Botanical Repair Treatment <br> <i>$45</i></p>
+			<p class="pt-sans-narrow-regular">Nutriplenish Treatment <br> <i>$45</i></p>
+		</div>
+	
+	<footer>
+        <address class="pt-sans-narrow-regular">320 Bedford Avenue Brooklyn, NY 11249</address>
+        <p class="pt-sans-narrow-regular"><a href = "tel:347-384-2116">347-384-2116</a></p>
+        <p class="pt-sans-narrow-regular">&copy; Elise Poonai 2025</p>
+    </footer>
+	</body>
+</html>

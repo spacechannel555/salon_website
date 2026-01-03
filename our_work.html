@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset ='utf-8'>
+    <title>Our Work &mdash; Natural Look Aveda</title>
+    <link rel="icon" type="image/jpeg" href="assets/logo_favicon.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+    <style type = "text/css">
+        .pt-sans-narrow-regular {
+  			font-family: "PT Sans Narrow", sans-serif;
+  			font-weight: 400;
+  			font-style: normal;
+		}
+
+		.pt-sans-narrow-bold {
+  			font-family: "PT Sans Narrow", sans-serif;
+  			font-weight: 700;
+  			font-style: normal;
+		}
+        
+        body {
+            margin: 0;
+            background: hsl(129, 14%, 50%);
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 150px;
+        }
+
+        footer {
+            padding: 50px;
+			text-align: center;
+        }
+
+		footer address {
+			font-size: 20px;
+            color:hsl(7 26.9% 11.7%);
+		}
+		
+		footer p {
+			font-size: 20px;
+            color:hsl(7 26.9% 11.7%);
+		}
+
+        footer p a:link {
+            text-decoration: none;
+            color:black;
+            color:hsl(7 26.9% 11.7%);
+        }
+
+        .logo {
+            height: 275px;
+            display: block;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            position: relative;
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 10px 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        nav ul li a:hover {
+            border-bottom: 3px solid white;
+        }
+
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: hsl(124, 20%, 50%);
+            min-width: 220px;
+            padding: 8px 0;
+            border-radius: 4px;
+        }
+
+        .dropdown-menu li {
+            margin: 0;
+        }
+
+        .dropdown-menu li a {
+            padding: 8px 15px;
+            border-bottom: none;
+            white-space: nowrap;
+        }
+
+        .dropdown-menu li a:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-bottom: none;
+        }
+
+        li.dropdown:hover .dropdown-menu {
+            display: block;
+        }
+
+        .work-gallery {
+            max-width: 1100px;
+            margin: 40px auto 80px;
+            display: grid;
+            grid-template-columns: repeat(3, minmax(220px, 1fr));
+            gap: 24px;
+        }
+
+        .work-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+        }
+
+        .work-item img {
+            display: block;
+            width: 100%;
+            height: auto;
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+
+        .work-overlay {
+            position: absolute;
+            inset: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            text-align: center;
+            color: white;
+            font-size: 0.95rem;
+            background: rgba(0, 0, 0, 0.45);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .work-overlay p {
+            margin: 0;
+        }
+
+        .work-item:hover img {
+            opacity: 0.35;
+            transform: scale(1.03);
+        }
+
+        .work-item:hover .work-overlay {
+            opacity: 1;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="assets/logo.png" alt="Natural Look Aveda" title="Logo by Alex Cohen" class="logo">
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="our_work.html">OUR WORK</a></li>
+                <li class="dropdown">
+                    <a href="services.html">SERVICES</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="services.html#haircut-style">Haircut/Style</a></li>
+                        <li><a href="services.html#color">Color</a></li>
+                        <li><a href="services.html#magic-sleek">Magic Sleek Smoothing Treatment</a></li>
+                        <li><a href="services.html#hair-treatment">Treatments</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="booking_login.php">BOOK NOW</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="work-gallery">
+            <figure class="work-item">
+                <img src="assets/color_cut_connie_1.JPG" alt="Color, Cut, &amp; Style by Connie">
+                <figcaption class="work-overlay">
+                    <p>Color, Cut, &amp; Style by Connie</p>
+                </figcaption>
+            </figure>
+
+            <figure class="work-item">
+                <img src="assets/cut_connie_2.JPG" alt="Cut by Connie">
+                <figcaption class="work-overlay">
+                    <p>Cut by Connie</p>
+                </figcaption>
+            </figure>
+
+            <figure class="work-item">
+                <img src="assets/color_natasha_cut_connie_1.JPG" alt="Color by Natasha; Cut &amp; Style by Connie">
+                <figcaption class="work-overlay">
+                    <p>Color by Natasha; Cut &amp; Style by Connie</p>
+                </figcaption>
+            </figure>
+
+            <figure class="work-item">
+                <img src="assets/cut_color_natasha_2.JPG" alt="Color &amp; Cut by Natasha">
+                <figcaption class="work-overlay">
+                    <p>Color &amp; Cut by Natasha</p>
+                </figcaption>
+            </figure>
+
+            <figure class="work-item">
+                <img src="assets/color_cut_connie_2.JPG" alt="Color, Cut, &amp; Style by Connie">
+                <figcaption class="work-overlay">
+                    <p>Color, Cut, &amp; Style by Connie</p>
+                </figcaption>
+            </figure>
+
+            <figure class="work-item">
+                <img src="assets/dbr_cut_connie.jpeg" alt="Double Process Re-touch &amp; Cut by Connie">
+                <figcaption class="work-overlay">
+                    <p>Double Process Re-touch &amp; Cut by Connie</p>
+                </figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <footer>
+        <address class="pt-sans-narrow-regular">320 Bedford Avenue Brooklyn, NY 11249</address>
+        <p class="pt-sans-narrow-regular"><a href = "tel:347-384-2116">347-384-2116</a></p>
+        <p class="pt-sans-narrow-regular">&copy; Elise Poonai 2025</p>
+    </footer>
+</body>
+</html>

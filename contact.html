@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset ='utf-8'>
+    <title>Contact &mdash; Natural Look Aveda</title>
+    <link rel="icon" type="image/jpeg" href="assets/logo_favicon.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+    <style type = "text/css">
+        .pt-sans-narrow-regular {
+  			font-family: "PT Sans Narrow", sans-serif;
+  			font-weight: 400;
+  			font-style: normal;
+		}
+
+		.pt-sans-narrow-bold {
+  			font-family: "PT Sans Narrow", sans-serif;
+  			font-weight: 700;
+  			font-style: normal;
+		}
+        
+        body {
+            margin: 0;
+            background: hsl(129, 14%, 50%);
+            text-align: center;
+        }
+
+        h1{
+			font-size: 60px;
+			color:hsl(7 26.9% 11.7%);
+		}
+
+        h2{
+			font-size: 50px;
+			color:hsl(7 26.9% 11.7%);
+		}
+
+        div p {
+            font-size: 45px;
+			color:hsl(7 26.9% 11.7%);
+        }
+
+        td {
+            font-size: 45px;
+			color:hsl(7 26.9% 11.7%);
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 150px;
+        }
+
+        footer {
+            padding: 50px;
+			text-align: center;
+        }
+
+		footer address {
+			font-size: 20px;
+            color:hsl(7 26.9% 11.7%);
+		}
+		
+		footer p {
+			font-size: 20px;
+            color:hsl(7 26.9% 11.7%);
+		}
+
+        footer p a:link {
+            text-decoration: none;
+            color:hsl(7 26.9% 11.7%);
+        }
+
+        .logo {
+            height: 275px;
+            display: block;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            position: relative;
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 10px 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: left;
+        }
+
+        nav ul li a:hover {
+            border-bottom: 3px solid white;
+        }
+
+        /* Dropdown menu under SERVICES */
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: hsl(124, 20%, 50%);
+            min-width: 220px;
+            padding: 8px 0;
+            border-radius: 4px;
+        }
+
+        .dropdown-menu li {
+            margin: 0;
+        }
+
+        .dropdown-menu li a {
+            padding: 8px 15px;
+            border-bottom: none;
+            white-space: nowrap;
+        }
+
+        .dropdown-menu li a:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-bottom: none;
+        }
+
+        /* Show menu on hover */
+        li.dropdown:hover .dropdown-menu {
+            display: block;
+        }
+
+        .hero-button {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 12px 30px;
+        border-radius: 999px;
+        border: solid 3px hsl(7 26.9% 11.7%);
+        text-decoration: none;
+        font-weight: 600;
+        cursor: pointer;
+        background: hsl(129, 14%, 50%);
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .hero-button:hover {
+        background: hsl(7 26.9% 11.7%);
+        border: solid 3px hsl(129, 14%, 50%);
+        }
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.contact-left,
+.contact-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="assets/logo.png" alt="Natural Look Aveda" title="Logo by Alex Cohen" class="logo">
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="our_work.html">OUR WORK</a></li>
+                <li class="dropdown">
+                    <a href="services.html">SERVICES</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="services.html#haircut-style">Haircut/Style</a></li>
+                        <li><a href="services.html#color">Color</a></li>
+                        <li><a href="services.html#magic-sleek">Magic Sleek Smoothing Treatment</a></li>
+                        <li><a href="services.html#hair-treatment">Treatments</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="booking_login.php">BOOK NOW</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div>
+        <h1 class="pt-sans-narrow-bold">Schedule an appointment with us, or walk in!</h1>
+    </div>
+
+    <div><a href="booking_login.php" class="hero-button">Book Now</a></div>
+
+    <div class="contact-grid">
+
+    <div class="contact-left">
+        <h2 class="pt-sans-narrow-bold">Phone Number:</h2>
+        <p class="pt-sans-narrow-regular">347-384-2116</p>
+
+        <h2 class="pt-sans-narrow-bold">Address:</h2>
+        <p class="pt-sans-narrow-regular">
+            320 Bedford Avenue <br>
+            Brooklyn, NY 11249 <br>
+            Corner of South 2nd and Bedford Ave
+        </p>
+    </div>
+
+    <div class="contact-right">
+        <h2 class="pt-sans-narrow-bold">Hours:</h2>
+        <table>
+            <tr><td class="pt-sans-narrow-regular">Monday</td><td class="pt-sans-narrow-regular">11am - 7pm</td></tr>
+            <tr><td class="pt-sans-narrow-regular">Tuesday</td><td class="pt-sans-narrow-regular">11am - 7pm</td></tr>
+            <tr><td class="pt-sans-narrow-regular">Wednesday</td><td class="pt-sans-narrow-regular">11am - 7pm</td></tr>
+            <tr><td class="pt-sans-narrow-regular">Thursday</td><td class="pt-sans-narrow-regular">11am - 7pm</td></tr>
+            <tr><td class="pt-sans-narrow-regular">Friday</td><td class="pt-sans-narrow-regular">11am - 7pm</td></tr>
+            <tr><td class="pt-sans-narrow-regular">Saturday</td><td class="pt-sans-narrow-regular">11am - 7pm</td></tr>
+            <tr><td class="pt-sans-narrow-regular">Sunday</td><td class="pt-sans-narrow-regular">11am - 6pm</td></tr>
+        </table>
+    </div>
+</div>
+
+    <footer>
+        <address class="pt-sans-narrow-regular">320 Bedford Avenue Brooklyn, NY 11249</address>
+        <p class="pt-sans-narrow-regular"><a href = "tel:347-384-2116">347-384-2116</a></p>
+        <p class="pt-sans-narrow-regular">&copy; Elise Poonai 2025</p>
+    </footer>
+</body>
+</html>
