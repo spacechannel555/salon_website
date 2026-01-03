@@ -4,21 +4,22 @@ error_reporting(E_ALL);
 return (object)[
     'db' => [
         'host' => 'localhost',
-        'user' => 'adminuser',
-        'pass' => 'Monkey2868!!',
+        'user' => '[insert db user here]',
+        'pass' => '[insert db password here]',
         'name' => 'booking_sys'
     ],
     'site' => [
-        'from_email' => 'nlasalon.booking@gmail.com',
-        'from_name' => 'Natural Look Aveda Bedford Salon Booking'
+        'from_email' => '[insert email used for email confirmations here]',
+        'from_name' => '[insert email subject here]'
     ],
-    //SMTP settings
+    //SMTP settings using Gmail
     'smtp' => [
         'host' => 'smtp.gmail.com',
         'port' => 587,
-        'username' => 'nlasalon.booking@gmail.com',
+        'username' => '[insert email used for email confirmations here]',
         //get past Google's 2FA
-        'password' => 'qhaq wvgc kwkw gyuc',
+        'password' => '[insert generated app password here]',
         'secure' => 'tls'
     ]
 ];
+
