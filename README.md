@@ -6,7 +6,7 @@
 - Composer (for PHPMailer)
 
 ## 1) Get the code
-Place this folder on your machine (e.g., `website_zip.zip`).
+Place these files in a new folder on your machine; name the folder whatever you like.
 
 ## 2) Install PHP dependencies
 From the project root:
