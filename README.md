@@ -1,5 +1,7 @@
 ﻿# Natural Look Aveda Salon Website (Local Setup)
 
+## Website URL: spacechannel555.github.io/salon_website
+
 ## Prerequisites
 - PHP 8+ with `mysqli` enabled
 - MySQL 8+ (or MariaDB) and access to create/import databases
