@@ -1,6 +1,12 @@
-﻿# Natural Look Aveda Salon Website (Local Setup)
+﻿# Natural Look Aveda Salon Website
 
 [Salon Website](https://spacechannel555.github.io/salon_website/)
+
+*10.12.26 UPDATE* Booking system is disabled on public website, per owner's request.
+
+### This code was originally for a personal/school project: build a website for my mom's salon using html/css/javascript/php/mysql that includes a booking system. The previous website was built using Squarespace; this is an updated version, as I have learned HTML, CSS, PHP, JavaScript, and SQL throughout my CIS academic career. The current website is static as of October 12, 2026; the booking system files are still available in repository for possible future use.
+
+# *LOCAL SET-UP (for optional booking system)*
 
 ## Prerequisites
 - PHP 8+ with `mysqli` enabled
